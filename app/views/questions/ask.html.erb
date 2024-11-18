@@ -1,0 +1,12 @@
+<!-- app/views/questions/ask.html.erb -->
+<h1>Stupid Coaching</h1>
+
+<form action="/answer" method="get" data-turbo="false">
+  <div>
+    <label for="question">Your question:</label>
+    <input type="text" id="question" name="question">
+  </div>
+  <div>
+    <input type="submit" value="Ask!">
+  </div>
+</form>
